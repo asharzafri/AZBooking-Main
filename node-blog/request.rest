@@ -1,0 +1,22 @@
+POST http://localhost:8000/insert-product
+Content-Type: application/json
+
+{
+     "name": "Low fade",
+      "slug": "low-fade",
+      "category": "Hair Cut",
+      "image": "/images/lowfade.jpg",
+      "price": 20,
+      "rating": 5,
+      "stock": 1,
+      "description": "Low Fade Haircut - €20 The low fade is a haircut where the hair is faded down to the skin just above your ears. If you have a beard, the low fade is perfect because it blends well into with the haircut."
+}
+###
+GET http://localhost:8000/get-data
+
+###
+POST http://localhost:8000/delete-product
+Content-Type: application/json
+
+{"_id":"625edbf9994cd425e0459fd2"}
+
